@@ -34,7 +34,7 @@ The juicy and useful information you will get with this script are:
 
 ## PARAMETERS
 
-### ThuType
+### HunType
 
 This parameter specifies the type of events you are interested in, there are 04 values for this parameter:
 
