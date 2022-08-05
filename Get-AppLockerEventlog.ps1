@@ -39,6 +39,7 @@ All
         FilePath = $eventXml.UserData.RuleAndFileData.FilePath
         Publisher = $eventXml.UserData.RuleAndFileData.Fqbn
         FileHash = $eventXml.UserData.RuleAndFileData.FileHash
+        Package = $eventXml.UserData.RuleAndFileData.Package
         RuleName = $eventXml.UserData.RuleAndFileData.RuleName
         LogName = $eventXml.System.Channel
         TargetUser = $eventXml.UserData.RuleAndFileData.TargetUser
@@ -57,7 +58,7 @@ All
 Block 
 {
     
-    $output = Get-WinEvent -FilterHashtable @{LogName="microsoft-windows-applocker/*";id=8004,8007,8022,8025}  | ForEach-Object {
+    $output = Get-WinEvent -FilterHashtable @{LogName="microsoft-windows-applocker/*";id=8004,8007,8022,8024}  | ForEach-Object {
 
     # First, the UserID give the SID, to have the username, we need to translate this value:
     # The userid is a propriety of Get-WinEvent
@@ -85,6 +86,7 @@ Block
         FilePath = $eventXml.UserData.RuleAndFileData.FilePath
         Publisher = $eventXml.UserData.RuleAndFileData.Fqbn
         FileHash = $eventXml.UserData.RuleAndFileData.FileHash
+        Package = $eventXml.UserData.RuleAndFileData.Package
         RuleName = $eventXml.UserData.RuleAndFileData.RuleName
         LogName = $eventXml.System.Channel
         TargetUser = $eventXml.UserData.RuleAndFileData.TargetUser
@@ -130,6 +132,7 @@ Allow
         FilePath = $eventXml.UserData.RuleAndFileData.FilePath
         Publisher = $eventXml.UserData.RuleAndFileData.Fqbn
         FileHash = $eventXml.UserData.RuleAndFileData.FileHash
+        Package = $eventXml.UserData.RuleAndFileData.Package
         RuleName = $eventXml.UserData.RuleAndFileData.RuleName
         LogName = $eventXml.System.Channel
         TargetUser = $eventXml.UserData.RuleAndFileData.TargetUser
@@ -175,6 +178,7 @@ Audit
         FilePath = $eventXml.UserData.RuleAndFileData.FilePath
         Publisher = $eventXml.UserData.RuleAndFileData.Fqbn
         FileHash = $eventXml.UserData.RuleAndFileData.FileHash
+        Package = $eventXml.UserData.RuleAndFileData.Package
         RuleName = $eventXml.UserData.RuleAndFileData.RuleName
         LogName = $eventXml.System.Channel
         TargetUser = $eventXml.UserData.RuleAndFileData.TargetUser
