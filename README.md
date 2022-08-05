@@ -34,7 +34,7 @@ The juicy and useful information you will get with this script are:
 
 ## PARAMETERS
 
-### ThuType
+### HunType
 
 This parameter specifies the type of events you are interested in, there are 04 values for this parameter:
 
@@ -78,6 +78,9 @@ This gets all the events generated when AppLocker would block the application if
 To better understand AppLocker, give this blog a read:
 
 [Diving in AppLocker for Blue Team — Part 1](https://medium.com/@elromaissa2/diving-in-applocker-for-blue-team-57a7328ce5c0)
+
+https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-defender-application-control/applocker/using-event-viewer-with-applocker
+
 
 ## Contributing
 
