@@ -28,6 +28,7 @@ The juicy and useful information you will get with this script are:
 - FilePath,
 - Publisher,
 - FileHash,
+- Package
 - RuleName,
 - LogName,
 - TargetUser.
