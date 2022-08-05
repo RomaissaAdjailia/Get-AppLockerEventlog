@@ -79,6 +79,9 @@ To better understand AppLocker, give this blog a read:
 
 [Diving in AppLocker for Blue Team — Part 1](https://medium.com/@elromaissa2/diving-in-applocker-for-blue-team-57a7328ce5c0)
 
+https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-defender-application-control/applocker/using-event-viewer-with-applocker
+
+
 ## Contributing
 
 This project welcomes contributions and suggestions. 
