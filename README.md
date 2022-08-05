@@ -76,7 +76,7 @@ This gets all the events generated when AppLocker would block the application if
 
 ## Resource
 
-To better understand AppLocker, give this blog a read:
+To better understand AppLocker :
 
 - [Diving in AppLocker for Blue Team — Part 1](https://medium.com/@elromaissa2/diving-in-applocker-for-blue-team-57a7328ce5c0)
 
