@@ -9,7 +9,7 @@ This script will parse all the channels of events from the win-event log to extr
 - Packaged app-Deployment, 
 - Packaged app-Execution.
 
-The output:
+### The output:
 - The result will be displayed on the screen  
 ![all](/Images/All-1.png)
 
