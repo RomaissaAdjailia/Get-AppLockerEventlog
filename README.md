@@ -13,7 +13,10 @@ The output:
 - The result will be displayed on the screen  
 ![all](/Images/All-1.png)
 
-- And, The result will be saved to a csv file
+- And, The result will be saved to a csv file: **AppLocker-log.csv**
+
+![csv](/Images/csv.png)
+
 
 The juicy and useful information you will get with this script are:
 - FileType,
