@@ -37,7 +37,7 @@ All
         
         #RuleSddl = $eventXml.UserData.RuleAndFileData.RuleSddl
         FilePath = $eventXml.UserData.RuleAndFileData.FilePath
-        Fqbn = $eventXml.UserData.RuleAndFileData.Fqbn
+        Publisher = $eventXml.UserData.RuleAndFileData.Fqbn
         FileHash = $eventXml.UserData.RuleAndFileData.FileHash
         RuleName = $eventXml.UserData.RuleAndFileData.RuleName
         LogName = $eventXml.System.Channel
@@ -83,7 +83,7 @@ Block
         
         #RuleSddl = $eventXml.UserData.RuleAndFileData.RuleSddl
         FilePath = $eventXml.UserData.RuleAndFileData.FilePath
-        Fqbn = $eventXml.UserData.RuleAndFileData.Fqbn
+        Publisher = $eventXml.UserData.RuleAndFileData.Fqbn
         FileHash = $eventXml.UserData.RuleAndFileData.FileHash
         RuleName = $eventXml.UserData.RuleAndFileData.RuleName
         LogName = $eventXml.System.Channel
@@ -128,7 +128,7 @@ Allow
         
         #RuleSddl = $eventXml.UserData.RuleAndFileData.RuleSddl
         FilePath = $eventXml.UserData.RuleAndFileData.FilePath
-        Fqbn = $eventXml.UserData.RuleAndFileData.Fqbn
+        Publisher = $eventXml.UserData.RuleAndFileData.Fqbn
         FileHash = $eventXml.UserData.RuleAndFileData.FileHash
         RuleName = $eventXml.UserData.RuleAndFileData.RuleName
         LogName = $eventXml.System.Channel
@@ -173,7 +173,7 @@ Audit
         
         #RuleSddl = $eventXml.UserData.RuleAndFileData.RuleSddl
         FilePath = $eventXml.UserData.RuleAndFileData.FilePath
-        Fqbn = $eventXml.UserData.RuleAndFileData.Fqbn
+        Publisher = $eventXml.UserData.RuleAndFileData.Fqbn
         FileHash = $eventXml.UserData.RuleAndFileData.FileHash
         RuleName = $eventXml.UserData.RuleAndFileData.RuleName
         LogName = $eventXml.System.Channel
